@@ -8,7 +8,7 @@
     <meta name="keywords" content="BuildTab - Construction Firm Html Template, BuildTab - Construction Firm WordPress Theme, unlimited colors available, ui/ux, ui/ux design, best html template, html template, html, woocommerce, shopify, prestashop, eCommerce, react js, react template, JavaScript, best CSS theme,css3, elementor theme, latest premium themes 2023, latest premium templates 2023, Preyan Technosys Pvt.Ltd, cymol themes, themetech mount, Web 3.0, multi-theme, website theme and template, woocommerce, bootstrap template, web templates, responsive theme, business,   architecture, building firm, construction company, contractor, elementor, engineering, handyman services, industrial theme, property development, renovation building, construction, architecture design, interiordesign, renovation services,engineering, contractor, realestate, constructionsite" >
     <meta name="author" content="https://www.preyantechnosys.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BuildTab - Construction Firm Html5 Template</title>
+    <title>{{ $title ?? '' }} | {{ config('app.name') }}</title>
 
     <link rel="shortcut icon" href="/assets/images/favicon.png" >
     <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
@@ -73,20 +73,20 @@
                                                     <a href="/">Home</a>
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">About Us</a>
+                                                    <a href="{{ route('about') }}" class="mega-menu-link">About Us</a>
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Services</a>
+                                                    <a href="{{ route('services') }}" class="mega-menu-link">Services</a>
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Our Assets</a>
                                                     <ul class="mega-submenu">
-                                                        <li><a href="blog.html">Portfolio</a></li>
+                                                        <li><a href="{{ route('projects') }}">Portfolio</a></li>
                                                         <li><a href="blog-details.html">Inspection</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="contact-us.html">Contact us</a>
+                                                    <a href="{{ route('faqs') }}" class="mega-menu-link">FAQ</a>
                                                 </li>
                                             </ul>
                                         </nav><!-- menu end -->
@@ -107,11 +107,9 @@
         <!-- site-header-menu end-->
     </header><!-- header end -->
 
-    <main>
 
         @yield('content')
 
-    </main>
 
     <!-- footer start -->
     <footer class="footer widget-footer bg-base-dark text-base-white overflow-hidden clearfix">
@@ -159,12 +157,13 @@
                         <div class="widget link-widget clearfix">
                             <h3>Company</h3>
                             <ul class="menu-footer-link">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">What We Do</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="{{ route('projects') }}">Home</a></li>
+
+                                <li><a href="{{ route('projects') }}">What We Do</a></li>
+                                <li><a href="{{ route('projects') }}">Projects</a></li>
+                                <li><a href="{{ route('projects') }}">Shop</a></li>
+                                <li><a href="{{ route('projects') }}">Blog</a></li>
+                                <li><a href="{{ route('projects') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -175,8 +174,7 @@
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Twitter</a></li>
                                 <li><a href="#">Instagram</a></li>
-                                <li><a href="#">Behance</a></li>
-                                <li><a href="#">Dribbble</a></li>
+                                <li><a href="#">LinkedIn</a></li>
                             </ul>
                         </div>
                     </div>
@@ -236,9 +234,9 @@
 <script src="/assets/js/main.js"></script>
 <script src="/assets/js/aos.js"></script>
 <!-- Revolution Slider -->
-<script src='revolution/js/revolution.tools.min.js'></script>
-<script src='revolution/js/rs6.min.js'></script>
-<script src="revolution/js/slider.js"></script>
+<script src='/assets/revolution/js/revolution.tools.min.js'></script>
+<script src='/assets/revolution/js/rs6.min.js'></script>
+<script src="/assets/revolution/js/slider.js"></script>
 <script>
     AOS.init({
         offset: 120,

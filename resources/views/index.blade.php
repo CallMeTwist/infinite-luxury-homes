@@ -13,7 +13,7 @@
                     <rs-slides>
                         <rs-slide data-key="rs-29" data-title="Slide" data-anim="adpr:false;" data-in="o:0;" data-out="a:false;">
 
-                            <img src="images/slides/slider-mainbg-001.jpg" alt="" title="slider-banner-img-02" width="1920" height="740" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/slides/slider-mainbg-001.jpg" data-bg="p:center top;f:auto;" data-parallax="off" data-no-retina>
+                            <img src="/assets/images/slides/slider-mainbg-001.jpg" alt="" title="slider-banner-img-02" width="1920" height="740" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/assets/images/slides/slider-mainbg-001.jpg" data-bg="p:center top;f:auto;" data-parallax="off" data-no-retina>
 
                             <rs-layer
                                 id="slider-11-slide-29-layer-0"
@@ -81,7 +81,7 @@
                                 data-frame_1="st:170;sp:1000;sR:170;"
                                 data-frame_999="o:0;st:w;sR:7830;"
                                 style="z-index:9;"
-                            ><img src="images/slides/img-01.png" alt="" class="tp-rs-img" data-no-retina>
+                            ><img src="/assets/images/slides/img-01.png" alt="" class="tp-rs-img" data-no-retina>
                             </rs-layer>
 
                             <rs-layer
@@ -98,7 +98,7 @@
                                 data-frame_1="st:170;sp:1000;sR:170;"
                                 data-frame_999="o:0;st:w;sR:7830;"
                                 style="z-index:9;"
-                            ><img src="images/slides/img-02.png" alt="" class="tp-rs-img" data-no-retina>
+                            ><img src="/assets/images/slides/img-02.png" alt="" class="tp-rs-img" data-no-retina>
                             </rs-layer>
 
                         </rs-slide>
@@ -121,7 +121,7 @@
                         <div class="pr-20 res-1199-pr-0">
                             <div class="big-title">1995 - 2023</div>
                             <div class="prt_single_image-wrapper mt-30 text-start">
-                                <img width="614" height="290" class="img-fluid border-rad_10" src="images/single-img-01.jpg" alt="single-1">
+                                <img width="614" height="290" class="img-fluid border-rad_10" src="/assets/images/single-img-01.jpg" alt="single-1">
                             </div>
                         </div>
                     </div>
@@ -163,35 +163,35 @@
                             <div class="col-lg-3">
                                 <div class="client-box">
                                     <div class="client-thumbnail">
-                                        <img width="197" height="32" class="img-fluid" src="images/client/client-01.png" alt="image">
+                                        <img width="197" height="32" class="img-fluid" src="/assets/images/client/client-01.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="client-box">
                                     <div class="client-thumbnail">
-                                        <img width="201" height="37" class="img-fluid" src="images/client/client-02.png" alt="image">
+                                        <img width="201" height="37" class="img-fluid" src="/assets/images/client/client-02.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="client-box">
                                     <div class="client-thumbnail">
-                                        <img width="146" height="28" class="img-fluid" src="images/client/client-03.png" alt="image">
+                                        <img width="146" height="28" class="img-fluid" src="/assets/images/client/client-03.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="client-box">
                                     <div class="client-thumbnail">
-                                        <img width="160" height="39" class="img-fluid" src="images/client/client-04.png" alt="image">
+                                        <img width="160" height="39" class="img-fluid" src="/assets/images/client/client-04.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="client-box">
                                     <div class="client-thumbnail">
-                                        <img width="180" height="39" class="img-fluid" src="images/client/client-05.png" alt="image">
+                                        <img width="180" height="39" class="img-fluid" src="/assets/images/client/client-05.png" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +294,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -310,7 +310,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -326,7 +326,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -342,7 +342,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -358,7 +358,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -404,7 +404,7 @@
                         <div id="frame_1">
                             <div class="featured-imagebox featured-imagebox-service style1">
                                 <div class="featured-thumbnail">
-                                    <img width="293" height="200" class="img-fluid" src="images/services/services-01-655x437.jpg" alt="img">
+                                    <img width="293" height="200" class="img-fluid" src="/assets/images/services/services-01-655x437.jpg" alt="img">
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
@@ -433,14 +433,14 @@
                                     </div>
                                 </div>
                                 <div class="featured-thumbnail">
-                                    <img width="293" height="200" class="img-fluid" src="images/services/services-02-655x437.jpg" alt="img">
+                                    <img width="293" height="200" class="img-fluid" src="/assets/images/services/services-02-655x437.jpg" alt="img">
                                 </div>
                             </div>
                         </div>
                         <div id="frame_3">
                             <div class="featured-imagebox featured-imagebox-service style1">
                                 <div class="featured-thumbnail">
-                                    <img width="293" height="200" class="img-fluid" src="images/services/services-03-655x437.jpg" alt="img">
+                                    <img width="293" height="200" class="img-fluid" src="/assets/images/services/services-03-655x437.jpg" alt="img">
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
@@ -469,14 +469,14 @@
                                     </div>
                                 </div>
                                 <div class="featured-thumbnail">
-                                    <img width="293" height="200" class="img-fluid" src="images/services/services-04-655x437.jpg" alt="img">
+                                    <img width="293" height="200" class="img-fluid" src="/assets/images/services/services-04-655x437.jpg" alt="img">
                                 </div>
                             </div>
                         </div>
                         <div id="frame_5">
                             <div class="featured-imagebox featured-imagebox-service style1">
                                 <div class="featured-thumbnail">
-                                    <img width="293" height="200" class="img-fluid" src="images/services/services-05-655x437.jpg" alt="img">
+                                    <img width="293" height="200" class="img-fluid" src="/assets/images/services/services-05-655x437.jpg" alt="img">
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
@@ -507,7 +507,7 @@
                         <div class="testimonials prt-testimonial-box-view-style1">
                             <div class="testimonial-content">
                                 <div class="testimonial-quote-img">
-                                    <img width="59" height="57" src="images/icon-01.png" class="img-fluid" alt="image">
+                                    <img width="59" height="57" src="/assets/images/icon-01.png" class="img-fluid" alt="image">
                                 </div>
                                 <blockquote class="testimonial-text">I was blown away by the quality of work the construction team delivered incredibly detail-oriented and made every aspect of project was executed flawlessly.</blockquote>
                                 <div class="testimonial-caption">
@@ -516,7 +516,7 @@
                                 </div>
                                 <div class="testimonial-avatar">
                                     <div class="testimonial-img">
-                                        <img width="60" height="60" class="img-fluid" src="images/testimonial/testimonial-01.jpg" alt="testimonial-img">
+                                        <img width="60" height="60" class="img-fluid" src="/assets/images/testimonial/testimonial-01.jpg" alt="testimonial-img">
                                     </div>
                                 </div>
                             </div>
@@ -527,7 +527,7 @@
                         <div class="testimonials prt-testimonial-box-view-style1">
                             <div class="testimonial-content">
                                 <div class="testimonial-quote-img">
-                                    <img width="59" height="57" src="images/icon-01.png" class="img-fluid" alt="image">
+                                    <img width="59" height="57" src="/assets/images/icon-01.png" class="img-fluid" alt="image">
                                 </div>
                                 <blockquote class="testimonial-text">The construction team was incredibly communicative throughout the entire process, always keeping us in the loop on progress and any changes that needed to be made.</blockquote>
                                 <div class="testimonial-caption">
@@ -536,7 +536,7 @@
                                 </div>
                                 <div class="testimonial-avatar">
                                     <div class="testimonial-img">
-                                        <img width="60" height="60" class="img-fluid" src="images/testimonial/testimonial-02.jpg" alt="testimonial-img">
+                                        <img width="60" height="60" class="img-fluid" src="/assets/images/testimonial/testimonial-02.jpg" alt="testimonial-img">
                                     </div>
                                 </div>
                             </div>
@@ -547,7 +547,7 @@
                         <div class="testimonials prt-testimonial-box-view-style1">
                             <div class="testimonial-content">
                                 <div class="testimonial-quote-img">
-                                    <img width="59" height="57" src="images/icon-01.png" class="img-fluid" alt="image">
+                                    <img width="59" height="57" src="/assets/images/icon-01.png" class="img-fluid" alt="image">
                                 </div>
                                 <blockquote class="testimonial-text">We were very impressed with the level of professionalism exhibited by the construction team,by the construction team always on time and completed the job to our satisfaction.</blockquote>
                                 <div class="testimonial-caption">
@@ -556,7 +556,7 @@
                                 </div>
                                 <div class="testimonial-avatar">
                                     <div class="testimonial-img">
-                                        <img width="60" height="60" class="img-fluid" src="images/testimonial/testimonial-03.jpg" alt="testimonial-img">
+                                        <img width="60" height="60" class="img-fluid" src="/assets/images/testimonial/testimonial-03.jpg" alt="testimonial-img">
                                     </div>
                                 </div>
                             </div>
@@ -599,7 +599,7 @@
                                     <div class="prt-p_table-head">
                                         <div class="prt-p_table-title"><h3>Regular Plan</h3></div>
                                         <div class="prt-p_table-img">
-                                            <img width="302" height="110" class="img-fluid" src="images/pricing-img1.jpg" alt="image">
+                                            <img width="302" height="110" class="img-fluid" src="/assets/images/pricing-img1.jpg" alt="image">
                                         </div>
                                     </div>
                                 </div>
@@ -629,7 +629,7 @@
                                     <div class="prt-p_table-head">
                                         <div class="prt-p_table-title"><h3>Standard  Plan</h3></div>
                                         <div class="prt-p_table-img">
-                                            <img width="302" height="110" class="img-fluid" src="images/pricing-img2.jpg" alt="image">
+                                            <img width="302" height="110" class="img-fluid" src="/assets/images/pricing-img2.jpg" alt="image">
                                         </div>
                                     </div>
                                 </div>
@@ -659,7 +659,7 @@
                                     <div class="prt-p_table-head">
                                         <div class="prt-p_table-title"><h3>Premium Plan</h3></div>
                                         <div class="prt-p_table-img">
-                                            <img width="302" height="110" class="img-fluid" src="images/pricing-img3.jpg" alt="image">
+                                            <img width="302" height="110" class="img-fluid" src="/assets/images/pricing-img3.jpg" alt="image">
                                         </div>
                                     </div>
                                 </div>
