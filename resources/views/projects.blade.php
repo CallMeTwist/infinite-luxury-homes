@@ -1,58 +1,142 @@
 @extends('layouts.master', [
     $title = 'Our Projects',
-    $tags = "data-page='projects' data-page-parent='projects'"
 ])
 
-@section('css')
-    <link rel="stylesheet" href="{{ asset('assets/css/projects.min.css') }}">
-@endsection
-
-@section('header')
-    <header class="page primary-bg">
-        <div class="container">
-            <div class="section_header">
-                <span class="subtitle subtitle--extended">Building communities</span>
-                <h1 class="title">Our Projects</h1>
-                <ul class="breadcrumbs">
-                    <li class="breadcrumbs_item"><a href="/">Home</a></li>
-                    <li class="breadcrumbs_item breadcrumbs_item--current"><span>Projects</span></li>
-                </ul>
+@section('title')
+    <div class="prt-page-title-row">
+        <div class="prt-page-title-row-inner">
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="prt-page-title-row-heading">
+                            <div class="banner-vertical-block"></div>
+                            <div class="page-title-heading">
+                                <h2 class="title">Our Portfolio</h2>
+                            </div>
+                            <div class="breadcrumb-wrapper">
+                                    <span>
+                                        <a title="Homepage" href="index.html">Home</a>
+                                    </span>
+                                <span class="active">Our Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- <div class="bg-page-title-overlay"></div> -->
         </div>
-        <div class="media">
-            <picture>
-                <img class="" data-src="/assets/img/plan.png" src="/assets/img/plan.png" alt="media">
-            </picture>
-        </div>
-    </header>
+    </div>
 @endsection
 
 @section('content')
 
-    <main class="projects section">
-        <div class=container>
-            <ul class=projects_list>
-                @foreach($projects as $project)
-                    <li class=projects_list-item>
-                        <div class=media data-aos=zoom-in-right>
-                            <picture>
-                                <img class=lazy data-src="{{ asset($project->image) }}" src="{{ $project->image }}" alt="{{ $project->name }}">
-                            </picture>
-                        </div>
-                        <div class=main>
-                            <h3 class=main_title data-aos=fade-in><span class=text>{{ $project->name }}</span> <span class="divider divider--line" data-aos=slide-right></span></h3>
-                            <div class=main_info>
-                                <span class=location data-aos=fade-in data-aos-delay=50><i class="icon-location icon"></i> {{ $project->location }} </span>
-                                <span class="location mb-0 col-green col-bold">{!! config('currency')[get_settings()->currency] !!}{{ $project->pricing }}</span>
+    <div class="site-main">
+
+        <!-- portfolio section -->
+        <section class="prt-row prt-bg portfolio-section prt-portfoliobox clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
+                            <div class="prt-post-item" data-cursor-tooltip="">
+                                <div class="prt-post-item-inner">
+                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                    </div>
+                                    <div class="prt-animation-hover-button">
+                                        <div class="prt-project-readmore-btn">
+                                            <h3><a href="portfolio-details.html" rel="bookmark">Structural Concrete</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-body p-0 m-t-10">
-                                <iframe src="{{ $project->map }}" width="100%" height="220px"></iframe>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
+                            <div class="prt-post-item" data-cursor-tooltip="">
+                                <div class="prt-post-item-inner">
+                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-06.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                    </div>
+                                    <div class="prt-animation-hover-button">
+                                        <div class="prt-project-readmore-btn">
+                                            <h3><a href="portfolio-details.html" rel="bookmark">Kitchen and Living</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                @endforeach
-            </ul>
-        </div>
-    </main>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
+                            <div class="prt-post-item" data-cursor-tooltip="">
+                                <div class="prt-post-item-inner">
+                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                    </div>
+                                    <div class="prt-animation-hover-button">
+                                        <div class="prt-project-readmore-btn">
+                                            <h3><a href="portfolio-details.html" rel="bookmark">Building House</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
+                            <div class="prt-post-item" data-cursor-tooltip="">
+                                <div class="prt-post-item-inner">
+                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                    </div>
+                                    <div class="prt-animation-hover-button">
+                                        <div class="prt-project-readmore-btn">
+                                            <h3><a href="portfolio-details.html" rel="bookmark">Modern House</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
+                            <div class="prt-post-item" data-cursor-tooltip="">
+                                <div class="prt-post-item-inner">
+                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                    </div>
+                                    <div class="prt-animation-hover-button">
+                                        <div class="prt-project-readmore-btn">
+                                            <h3><a href="portfolio-details.html" rel="bookmark">Interior Texture</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
+                            <div class="prt-post-item" data-cursor-tooltip="">
+                                <div class="prt-post-item-inner">
+                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                    </div>
+                                    <div class="prt-animation-hover-button">
+                                        <div class="prt-project-readmore-btn">
+                                            <h3><a href="portfolio-details.html" rel="bookmark">Interior Texture</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- portfolio-section-end -->
+
+    </div>
 
 @endsection

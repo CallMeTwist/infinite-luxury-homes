@@ -72,7 +72,7 @@
                                                 <li class="mega-menu-item active">
                                                     <a href="/">Home</a>
                                                 </li>
-                                                <li class="mega-menu-item">
+                                                <li class="mega-menu-item {{ request()->is('welcome') ? 'active' : '' }}">
                                                     <a href="{{ route('about') }}" class="mega-menu-link">About Us</a>
                                                 </li>
                                                 <li class="mega-menu-item">
@@ -94,7 +94,7 @@
                                     <!-- header_extra -->
                                     <div class="header_extra">
                                         <div class="header_contact-link">
-                                            <a href="contact-us.html">Connect With Us</a>
+                                            <a href="{{ route('contact') }}">Connect With Us</a>
                                         </div>
                                     </div>
                                 </div>
@@ -107,8 +107,10 @@
         <!-- site-header-menu end-->
     </header><!-- header end -->
 
+    @yield('title')
 
-        @yield('content')
+
+    @yield('content')
 
 
     <!-- footer start -->
@@ -157,13 +159,12 @@
                         <div class="widget link-widget clearfix">
                             <h3>Company</h3>
                             <ul class="menu-footer-link">
-                                <li><a href="{{ route('projects') }}">Home</a></li>
-
-                                <li><a href="{{ route('projects') }}">What We Do</a></li>
+                                <li><a href="{{ route('welcome') }}">Home</a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
+                                <li><a href="{{ route('services') }}">What We Do</a></li>
                                 <li><a href="{{ route('projects') }}">Projects</a></li>
-                                <li><a href="{{ route('projects') }}">Shop</a></li>
-                                <li><a href="{{ route('projects') }}">Blog</a></li>
-                                <li><a href="{{ route('projects') }}">Contact Us</a></li>
+                                <li><a href="{{ route('faqs') }}">FAQs</a></li>
+                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -198,7 +199,7 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-lg-12">
-                            <span>Copyright © 2023 <a href="index.html">Buildtab</a> Template by The Pragmatic Approach. All rights reserved.</span>
+                            <span>Copyright © 2023 <a href="index.html">{{ config('app.name') }}</a> Template by The Pragmatic Approach. All rights reserved.</span>
                         </div>
                     </div>
                 </div>
