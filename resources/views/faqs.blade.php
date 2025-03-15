@@ -15,7 +15,7 @@
                             </div>
                             <div class="breadcrumb-wrapper">
                                     <span>
-                                        <a title="Homepage" href="index.html">Home</a>
+                                        <a title="Homepage" href="/">Home</a>
                                     </span>
                                 <span class="active">Faq</span>
                             </div>
@@ -53,80 +53,27 @@
                 <div class="row mt-20 res-991-mt-0">
                     <div class="col-lg-6 col-md-12">
                         <div class="accordion style1">
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#" class="active">How would I go about planning for my retirement?</a></div>
-                                <div class="toggle-content show">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            @foreach ($faqs->take($half) as $faq)
+                                <div class="toggle prt-toggle_style_classic prt-control-right-true">
+                                    <div class="toggle-title"><a href="#">{{ $faq->question }}</a></div>
+                                    <div class="toggle-content">
+                                        <p>{{ $faq->answer }}</p>
+                                    </div>
                                 </div>
-                            </div><!-- toggle end -->
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#">What are pools how and how to join them?</a></div>
-                                <div class="toggle-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                </div>
-                            </div><!-- toggle end -->
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#">What are the delivery types?</a></div>
-                                <div class="toggle-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                </div>
-                            </div><!-- toggle end -->
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#">Is there a discount code?</a></div>
-                                <div class="toggle-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                </div>
-                            </div><!-- toggle end -->
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#">Can I change my order?</a></div>
-                                <div class="toggle-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                </div>
-                            </div><!-- toggle end -->
+                            @endforeach
                         </div>
                     </div>
+
                     <div class="col-lg-6 col-md-12">
                         <div class="accordion style1">
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#" class="active">Can I use trademarked names in my items?</a></div>
-                                <div class="toggle-content show">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            @foreach ($faqs->skip($half) as $faq)
+                                <div class="toggle prt-toggle_style_classic prt-control-right-true">
+                                    <div class="toggle-title"><a href="#">{{ $faq->question }}</a></div>
+                                    <div class="toggle-content">
+                                        <p>{{ $faq->answer }}</p>
+                                    </div>
                                 </div>
-                            </div><!-- toggle end -->
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#">Which countries can I shop online?</a></div>
-                                <div class="toggle-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                </div>
-                            </div><!-- toggle end -->
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#">Our Community Mission</a></div>
-                                <div class="toggle-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                </div>
-                            </div><!-- toggle end -->
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#">Can I offer my items for free on a promotional basis?</a></div>
-                                <div class="toggle-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                </div>
-                            </div><!-- toggle end -->
-                            <!-- toggle -->
-                            <div class="toggle prt-toggle_style_classic prt-control-right-true">
-                                <div class="toggle-title"><a href="#">What is your strategy?</a></div>
-                                <div class="toggle-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                </div>
-                            </div><!-- toggle end -->
+                            @endforeach
                         </div>
                     </div>
                 </div><!-- row end -->

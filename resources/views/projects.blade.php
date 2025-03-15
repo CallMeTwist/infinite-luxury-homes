@@ -15,7 +15,7 @@
                             </div>
                             <div class="breadcrumb-wrapper">
                                     <span>
-                                        <a title="Homepage" href="index.html">Home</a>
+                                        <a title="Homepage" href="/">Home</a>
                                     </span>
                                 <span class="active">Our Portfolio</span>
                             </div>
@@ -36,102 +36,24 @@
         <section class="prt-row prt-bg portfolio-section prt-portfoliobox clearfix">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Structural Concrete</a></h3>
+                    @foreach($projects as $project)
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
+                                <div class="prt-post-item" data-cursor-tooltip="">
+                                    <div class="prt-post-item-inner">
+                                        <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
+                                            <a href="#"><img width="480" height="500" src="{{ asset($project->image) }}" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        </div>
+                                        <div class="prt-animation-hover-button">
+                                            <div class="prt-project-readmore-btn">
+                                                <h3><a href="#" rel="bookmark">{{ $project->name }}</a></h3>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-06.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Kitchen and Living</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Building House</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Modern House</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Interior Texture</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Interior Texture</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+                            </article>
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </section>

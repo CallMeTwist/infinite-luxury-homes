@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ $title ?? '' }} | {{ config('app.name') }}</title>
 
-    <link rel="shortcut icon" href="/assets/images/favicon.png" >
+    <link rel="shortcut icon" href="/assets/images/favicon2.png" >
     <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/all.min.css">
@@ -47,8 +47,9 @@
                                     <!-- site-branding -->
                                     <div class="site-branding">
                                         <h1><a class="home-link" href="index.html" title="BuildTab" rel="home">
-                                                <img id="logo-img" height="51" width="174" class="img-fluid auto_size" src="/assets/images/logo-light.svg" alt="logo-img">
-                                            </a></h1>
+                                                <img id="logo-img" height="100" width="400" class="img-fluid auto_size" src="/assets/images/infinite luxury logo 1.png" alt="logo-img">
+                                            </a>
+                                        </h1>
                                     </div><!-- site-branding end -->
                                     <div class="header-social-icons">
                                         <ul class="social-icons">
@@ -126,8 +127,8 @@
                     </div>
                     <div class="col-xl-3 col-lg-12">
                         <ul class="prt-list res-1199-mt-30">
-                            <li><i class="fa fa-check-circle"></i>Highway Road </li>
-                            <li><i class="fa fa-check-circle"></i>Engineering Support </li>
+                            <li><i class="fa fa-check-circle"></i>Property Assistance</li>
+                            <li><i class="fa fa-check-circle"></i>Real Estate Solutions </li>
                         </ul>
                     </div>
                     <div class="col-xl-4 col-lg-12">
@@ -145,13 +146,13 @@
                         <div class="widget widget_text clearfix">
                             <div class="footer-content-location">
                                 <h3>Office</h3>
-                                <p>2861 Fairview St undefined Tallahassee,<br> New Mexico 86357 United</p>
+                                <p>{{ get_settings()->address }}</p>
                             </div>
                             <div class="footer-content-call">
-                                <h3>P : <a href="tel:1234567890">+12 800 526 964 </a></h3>
+                                <h3>P : <a href="tel:{{ get_settings()->phone }}">{{ get_settings()->phone }}</a></h3>
                             </div>
                             <div class="footer-content-email">
-                                <p><a href="mailto:info@example.com">info.buildtab@example.com </a></p>
+                                <p><a href="mailto:{{ get_settings()->email }}">{{ get_settings()->email }} </a></p>
                             </div>
                         </div>
                     </div>

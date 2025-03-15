@@ -66,7 +66,10 @@ class WebsiteController extends Controller
      */
     public function faqs()
     {
-        return view('faqs');
+        $faqs = Faq::all();
+        $half = ceil($faqs->count() / 2);
+
+        return view('faqs', compact('faqs', 'half'));
     }
 
     /**
