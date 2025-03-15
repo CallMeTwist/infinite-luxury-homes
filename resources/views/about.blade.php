@@ -16,7 +16,7 @@
                             </div>
                             <div class="breadcrumb-wrapper">
                                     <span>
-                                        <a title="Homepage" href="index.html">Home</a>
+                                        <a title="Homepage" href="/">Home</a>
                                     </span>
                                 <span class="active">About Us</span>
                             </div>
@@ -44,7 +44,7 @@
                         <div class="section-title title-style-center_text" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" data-aos-once="true">
                             <div class="title-header">
                                 <h3 class="text-base-skin">About Us</h3>
-                                <h2 class="title mb-0">Over 25+ years experience urbanistic development company</h2>
+                                <h2 class="title mb-0">Over 15 years of expertise in real estate development.</h2>
                             </div>
                         </div><!-- section title end -->
                     </div>
@@ -109,7 +109,7 @@
                                         </span>
                                     <span>m</span>
                                 </h4>
-                                <h3 class="prt-fid-title">1 million clients across diverse range of industries</h3>
+                                <h3 class="prt-fid-title">1 million clients across diverse industries.</h3>
                             </div>
                         </div><!-- prt-fid end-->
                     </div>
@@ -117,7 +117,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="prt_single_image-wrapper mt-100 res-1199-mt-30 res-767-mt-15">
-                            <img width="1300" height="500" class="img-fluid" src="images/single-img-02.jpg" alt="single-img">
+                            <img width="1300" height="500" class="img-fluid" src="/assets/images/single-img-02.jpg" alt="single-img">
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -150,7 +150,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -166,7 +166,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -182,7 +182,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -198,7 +198,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -237,7 +237,7 @@
                                         <h3>Who we are</h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>A team of passionate experts dedicated to providing the top-quality resources and various information on home building and renovation.</p>
+                                        <p>A team of real estate experts dedicated to delivering top-quality solutions for property development and home renovation.</p>
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@
                                         <h3>Who we do</h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>We provide a comprehensive range of resources, information to help users navigate every aspect of home building and renovation process.</p>
+                                        <p>We offer expert guidance and resources to simplify real estate development and luxury home renovation.</p>
                                     </div>
                                 </div>
                             </div>
@@ -261,7 +261,7 @@
                                         <h3>Our Mission</h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Our mission is to empower our users to achieve their home building and renovation dreams by providing top-quality resources and information.</p>
+                                        <p>Our mission is to help clients achieve their real estate and renovation goals with expert guidance and quality resources.</p>
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +283,7 @@
                         <div class="section-title title-style-center_text">
                             <div class="title-header">
                                 <h3 class="text-base-skin">Our Project</h3>
-                                <h2 class="title">We help you overcome your technology challenges</h2>
+                                <h2 class="title">We help you overcome real estate challenges</h2>
                             </div>
                         </div><!-- section title end -->
                     </div>
@@ -299,7 +299,7 @@
                                             <p>We completed a custom home building project for a family in a suburban neighbourhood.</p>
                                         </div>
                                         <div class="award_picture">
-                                            <img width="402" height="250" src="images/listbox1.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy">
+                                            <img width="402" height="250" src="/assets/images/listbox1.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy">
                                         </div>
                                     </li>
                                     <li class="prt_listimgbox_wrap">
@@ -308,7 +308,7 @@
                                             <p>We completed an outdoor living space project for family who want to create an entertainment space in their backyard.</p>
                                         </div>
                                         <div class="award_picture">
-                                            <img width="402" height="250" src="images/listbox2.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy">
+                                            <img width="402" height="250" src="/assets/images/listbox2.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy">
                                         </div>
                                     </li>
                                     <li class="prt_listimgbox_wrap">
@@ -317,7 +317,7 @@
                                             <p>We completed a basement remodelling project for homeowner who wanted to create functional and comfortable living space.</p>
                                         </div>
                                         <div class="award_picture">
-                                            <img width="402" height="250" src="images/single-img-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy">
+                                            <img width="402" height="250" src="/assets/images/single-img-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy">
                                         </div>
                                     </li>
                                 </ul>
@@ -328,109 +328,5 @@
             </div>
         </section>
         <!--listimgbox-section end-->
-
-        <!--blog-section-->
-        <section class="prt-row prt-bg blog-section clearfix">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-7 col-lg-6 col-md-6 col-sm-6">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <!-- section title -->
-                            <div class="section-title">
-                                <div class="title-header">
-                                    <h3>Our Blog</h3>
-                                    <h2 class="title">Our recent blog</h2>
-                                </div>
-                            </div><!-- section title end -->
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6">
-                        <div class="pricingplan-text">
-                            <span>20+</span>
-                            <p>Best Latest<br>Blogs</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- row -->
-                <div class="row row-equal-height res-575-mt-15">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post">
-                            <div class="featured-thumbnail">
-                                <img width="354" height="200" class="img-fluid" src="images/blog/blog-img-01.jpg" alt="">
-                            </div>
-                            <!-- featured-content -->
-                            <div class="featured-content">
-                                <div class="featured-content-inner">
-                                    <!-- post-meta -->
-                                    <div class="post-meta">
-                                        <span class="prt-meta-category"><a href="blog-details.html">Builders</a></span>
-                                        <span class="prt-meta-comment"><i class="icon-comment-1"></i> 0 Comments</span>
-                                    </div><!-- post-meta end -->
-                                    <div class="post-title">
-                                        <h3><a href="blog-details.html">Best Cement Roof Manufacture Company</a></h3>
-                                    </div>
-                                    <div class="post-btn">
-                                        <a href="blog-details.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">View More</a>
-                                    </div>
-                                </div>
-                            </div><!-- featured-content end -->
-                        </div><!-- featured-imagebox-post end -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post">
-                            <div class="featured-thumbnail">
-                                <img width="354" height="200" class="img-fluid" src="images/blog/blog-img-02.jpg" alt="">
-                            </div>
-                            <!-- featured-content -->
-                            <div class="featured-content">
-                                <div class="featured-content-inner">
-                                    <!-- post-meta -->
-                                    <div class="post-meta">
-                                        <span class="prt-meta-category"><a href="blog-details.html">Builders</a></span>
-                                        <span class="prt-meta-comment"><i class="icon-comment-1"></i> 0 Comments</span>
-                                    </div><!-- post-meta end -->
-                                    <div class="post-title">
-                                        <h3><a href="blog-details.html">Improve Workflow With Agile Construction</a></h3>
-                                    </div>
-                                    <div class="post-btn">
-                                        <a href="blog-details.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">View More</a>
-                                    </div>
-                                </div>
-                            </div><!-- featured-content end -->
-                        </div><!-- featured-imagebox-post end -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post">
-                            <div class="featured-thumbnail">
-                                <img width="354" height="200" class="img-fluid" src="images/blog/blog-img-03.jpg" alt="">
-                            </div>
-                            <!-- featured-content -->
-                            <div class="featured-content">
-                                <div class="featured-content-inner">
-                                    <!-- post-meta -->
-                                    <div class="post-meta">
-                                        <span class="prt-meta-category"><a href="blog-details.html">Builders</a></span>
-                                        <span class="prt-meta-comment"><i class="icon-comment-1"></i> 0 Comments</span>
-                                    </div><!-- post-meta end -->
-                                    <div class="post-title">
-                                        <h3><a href="blog-details.html">The 9 Best Guideline For The Construction</a></h3>
-                                    </div>
-                                    <div class="post-btn">
-                                        <a href="blog-details.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">View More</a>
-                                    </div>
-                                </div>
-                            </div><!-- featured-content end -->
-                        </div><!-- featured-imagebox-post end -->
-                    </div>
-                </div>
-                <!-- row end -->
-            </div>
-        </section>
-        <!--blog-section end-->
-
     </div><!-- site-main end-->
-
 @endsection

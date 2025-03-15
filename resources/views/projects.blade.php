@@ -41,7 +41,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -57,7 +57,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-06.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-06.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -73,7 +73,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -89,7 +89,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -105,7 +105,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
@@ -121,7 +121,7 @@
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">

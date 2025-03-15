@@ -29,7 +29,7 @@
                                 data-frame_1_mask="u:t;"
                                 data-frame_999="o:0;st:w;"
                                 style="z-index:10;font-family:'Space Grotesk';"
-                            >urbanistic
+                            >Innovative
                             </rs-layer>
 
                             <rs-layer
@@ -47,7 +47,7 @@
                                 data-frame_1_mask="u:t;"
                                 data-frame_999="o:0;st:w;"
                                 style="z-index:11;font-family:'Space Grotesk';"
-                            >development
+                            >Real Estate
                             </rs-layer>
 
                             <rs-layer
@@ -64,7 +64,7 @@
                                 data-frame_1_mask="u:t;"
                                 data-frame_999="o:0;st:w;"
                                 style="z-index:12;font-family:'Space Grotesk';"
-                            >company
+                            >Solutions
                             </rs-layer>
 
                             <rs-layer
@@ -134,7 +134,7 @@
                                     <h2 class="title">Urban lifestyle company</h2>
                                 </div>
                                 <div class="title-desc">
-                                    <p>Buildtab is the creative enterprise, where innovation is a way of life. We are uniquely resourced with end-to-end services to take clients from inspiration through core conceptualization.</p>
+                                    <p>Infinite Luxury Homes specializes in crafting exceptional luxury residences and high-end developments. With a commitment to quality and innovation, we bring visionary designs to life, ensuring elegance, functionality, and lasting value in every project.</p>
                                 </div>
                             </div><!-- section title end -->
                             <div class="prt-iconbox-wrapper">
@@ -211,7 +211,7 @@
                         <!-- section title -->
                         <div class="section-title title-style-center_text">
                             <div class="title-header">
-                                <h2 class="title mb-0">We help you overcome your technology challenges</h2>
+                                <h2 class="title mb-0">We help you navigate real estate challenges with innovative solutions.</h2>
                             </div>
                         </div><!-- section title end -->
                     </div>
@@ -234,7 +234,7 @@
                                         </span>
                                     <span>hr</span>
                                 </h4>
-                                <h3 class="prt-fid-title">Providing clients with top-quality solutions</h3>
+                                <h3 class="prt-fid-title">Delivering top-quality real estate solutions.</h3>
                             </div>
                         </div><!-- prt-fid end-->
                     </div>
@@ -276,7 +276,7 @@
                                         </span>
                                     <span>m</span>
                                 </h4>
-                                <h3 class="prt-fid-title">1 million clients across diverse range of industries</h3>
+                                <h3 class="prt-fid-title">1 million clients across diverse industries.</h3>
                             </div>
                         </div><!-- prt-fid end-->
                     </div>
@@ -385,7 +385,7 @@
                             <div class="section-title">
                                 <div class="title-header">
                                     <h3>Our Best Services</h3>
-                                    <h2 class="title">We create building that</h2>
+                                    <h2 class="title">We create buildings that last.</h2>
                                 </div>
                             </div><!-- section title end -->
                             <div class="row g-0 position-relative res-991-mt_20">
@@ -408,10 +408,10 @@
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
-                                        <h3><a href="general-builder.html">General Builder</a></h3>
+                                        <h3><a href="general-builder.html">Luxury Home Construction</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>We’re providing labor and services that connection with construction, re-construction, real property.</p>
+                                        <p>We specialize in building high-end homes with premium materials, modern designs, and exceptional craftsmanship.</p>
                                     </div>
                                     <div class="prt-service-button">
                                         <a href="general-builder.html">Continue Reading</a>
@@ -423,10 +423,10 @@
                             <div class="featured-imagebox featured-imagebox-service style1">
                                 <div class="featured-content content-pr">
                                     <div class="featured-title">
-                                        <h3><a href="house-extensions.html">House Extensions</a></h3>
+                                        <h3><a href="house-extensions.html">Bespoke Home Extensions & Renovations</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>We are providing different services for the assembly of machinery, attaching machinery to structures base.</p>
+                                        <p>We enhance existing spaces with custom renovations and seamless extensions, tailored to luxury living.</p>
                                     </div>
                                     <div class="prt-service-button">
                                         <a href="house-extensions.html">Continue Reading</a>
@@ -444,10 +444,10 @@
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
-                                        <h3><a href="electrical-services.html">Electrical Services</a></h3>
+                                        <h3><a href="electrical-services.html">Smart Home & Mechanical Systems Integration</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>We perform specialize construction work related to design, installation, & system maintenance work.</p>
+                                        <p>We install advanced automation, climate control, and mechanical systems for ultimate comfort and efficiency.</p>
                                     </div>
                                     <div class="prt-service-button">
                                         <a href="electrical-services.html">Continue Reading</a>
@@ -459,10 +459,10 @@
                             <div class="featured-imagebox featured-imagebox-service style1">
                                 <div class="featured-content content-pr">
                                     <div class="featured-title">
-                                        <h3><a href="civil-structure.html">Civil & Structure</a></h3>
+                                        <h3><a href="civil-structure.html">Structural & Architectural Engineering</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>The Facilities operations across the globe. The Facilities and construction who will serve as a true client.</p>
+                                        <p>We provide expert engineering solutions to ensure durability, safety, and aesthetic excellence in luxury homes.</p>
                                     </div>
                                     <div class="prt-service-button">
                                         <a href="civil-structure.html">Continue Reading</a>
@@ -480,10 +480,10 @@
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
-                                        <h3><a href="multistory-build.html">Multistory Build</a></h3>
+                                        <h3><a href="multistory-build.html">High-End Commercial & Residential Developments</a></h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Our collaborative teams leverages the technology solution, high-level  communications innovation.</p>
+                                        <p>We design and construct upscale residential communities and commercial spaces with superior quality and innovation.</p>
                                     </div>
                                     <div class="prt-service-button">
                                         <a href="multistory-build.html">Continue Reading</a>

@@ -69,23 +69,23 @@
                                         <!-- menu -->
                                         <nav class="main-menu menu-mobile" id="menu">
                                             <ul class="menu">
-                                                <li class="mega-menu-item active">
+                                                <li class="mega-menu-item {{ request()->is('/') ? 'active' : '' }}">
                                                     <a href="/">Home</a>
                                                 </li>
-                                                <li class="mega-menu-item {{ request()->is('welcome') ? 'active' : '' }}">
+                                                <li class="mega-menu-item {{ request()->is('about') ? 'active' : '' }}">
                                                     <a href="{{ route('about') }}" class="mega-menu-link">About Us</a>
                                                 </li>
-                                                <li class="mega-menu-item">
+                                                <li class="mega-menu-item {{ request()->is('services') ? 'active' : '' }}">
                                                     <a href="{{ route('services') }}" class="mega-menu-link">Services</a>
                                                 </li>
-                                                <li class="mega-menu-item">
+                                                <li class="mega-menu-item {{ request()->is('projects') ? 'active' : '' }}">
                                                     <a href="#" class="mega-menu-link">Our Assets</a>
                                                     <ul class="mega-submenu">
                                                         <li><a href="{{ route('projects') }}">Portfolio</a></li>
                                                         <li><a href="blog-details.html">Inspection</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="mega-menu-item">
+                                                <li class="mega-menu-item {{ request()->is('faqs') ? 'active' : '' }}">
                                                     <a href="{{ route('faqs') }}" class="mega-menu-link">FAQ</a>
                                                 </li>
                                             </ul>
@@ -121,7 +121,7 @@
                 <div class="row">
                     <div class="col-xl-5 col-lg-12">
                         <div class="first-footer-content">
-                            <span>We provide land survey & digital mapping Services.</span>
+                            <span>Luxury real estate, construction, and land survey services.</span>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-12">
