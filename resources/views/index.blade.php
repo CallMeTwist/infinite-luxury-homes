@@ -35,7 +35,7 @@
                             <rs-layer
                                 id="slider-11-slide-29-layer-1"
                                 data-type="text"
-                                data-color="#ffa800"
+                                data-color="#e4ee5b"
                                 data-rsp_ch="on"
                                 data-xy="xo:125px,125px,160px,105px;yo:327px,327px,250px,205px;"
                                 data-text="w:normal;s:120,120,71,43;l:124,124,73,45;fw:600;"
@@ -289,86 +289,24 @@
         <section class="prt-row padding_zero-section overflow-hidden clearfix">
             <div class="container-fluid p-0">
                 <div class="row slick_slider g-0" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1050,"settings":{"slidesToShow": 3,"arrows":false,"autoplay":true}}, {"breakpoint":660,"settings":{"slidesToShow": 2,"arrows":false}}, {"breakpoint":481,"settings":{"slidesToShow": 1}}]}'>
-                    <div class="col-lg-3">
+                    @foreach($projects as $project)
+                        <div class="col-lg-3">
                         <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
                             <div class="prt-post-item" data-cursor-tooltip="">
                                 <div class="prt-post-item-inner">
                                     <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-01.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
+                                        <a href="portfolio-details.html"><img width="480" height="500" src="{{ asset($project->image) }}" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
                                     </div>
                                     <div class="prt-animation-hover-button">
                                         <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Building House</a></h3>
+                                            <h3><a href="portfolio-details.html" rel="bookmark">{{ $project->name }}</a></h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </article>
                     </div>
-                    <div class="col-lg-3">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-02.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Modern House</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-3">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-03.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Interior Texture</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-3">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-04.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Structural Concrete</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-3">
-                        <article class="prt-box prt-box-portfolio prt-portfoliobox-style1 ">
-                            <div class="prt-post-item" data-cursor-tooltip="">
-                                <div class="prt-post-item-inner">
-                                    <div class="prt-featured-wrapper prt-tm_portfolio-featured-wrapper">
-                                        <a href="portfolio-details.html"><img width="480" height="500" src="/assets/images/portfolio/portfolio-05.jpg" class="img-fluid" alt="image" decoding="async" loading="lazy"></a>
-                                    </div>
-                                    <div class="prt-animation-hover-button">
-                                        <div class="prt-project-readmore-btn">
-                                            <h3><a href="portfolio-details.html" rel="bookmark">Interior Texture</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </section>

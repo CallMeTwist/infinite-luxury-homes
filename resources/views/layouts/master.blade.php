@@ -24,6 +24,9 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/megamenu.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- REVOLUTION LAYERS STYLES -->
     <link rel='stylesheet' id='rs-plugin-settings-css' href="/assets/revolution/css/rs6.css">
 
@@ -46,7 +49,7 @@
                                 <div class="d-flex align-items-center">
                                     <!-- site-branding -->
                                     <div class="site-branding">
-                                        <h1><a class="home-link" href="index.html" title="BuildTab" rel="home">
+                                        <h1><a class="home-link" href="/" title="InfiniteLuxury" rel="home">
                                                 <img id="logo-img" height="100" width="400" class="img-fluid auto_size" src="/assets/images/infinite luxury logo 1.png" alt="logo-img">
                                             </a>
                                         </h1>
@@ -122,7 +125,7 @@
                 <div class="row">
                     <div class="col-xl-5 col-lg-12">
                         <div class="first-footer-content">
-                            <span>Luxury real estate, construction, and land survey services.</span>
+                            <span>Luxury real estate, construction & land survey.</span>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-12">
@@ -200,7 +203,7 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-lg-12">
-                            <span>Copyright © 2023 <a href="index.html">{{ config('app.name') }}</a> Template by The Pragmatic Approach. All rights reserved.</span>
+                            <span>Copyright © 2025 <a href="/">{{ config('app.name') }}</a> by The Pragmatic Approach. All rights reserved.</span>
                         </div>
                     </div>
                 </div>
