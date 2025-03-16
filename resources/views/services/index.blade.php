@@ -114,8 +114,8 @@
                                     <img width="61" height="57" class="img-fluid" src="/assets/images/icon-05.png" alt="image">
                                 </div>
                                 <div class="featured-content">
-                                    <p><a class="prt-call" href="tel:1234567890">+12 800 526 964</a></p>
-                                    <p><a href="mailto:info@example.com">info.buildtab@example.com</a></p>
+                                    <p><a class="prt-call" href="tel:{{ get_settings()->phone }}">{{ get_settings()->phone }}</a></p>
+                                    <p><a href="mailto:{{ get_settings()->email }}">{{ get_settings()->email }}</a></p>
                                 </div>
                             </div>
                             <!-- featured-icon-box end-->
@@ -128,13 +128,13 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="general-builder.html">Luxury Home Building</a></h3>
+                                    <h3><a href="{{ route('services.view', 'luxury-home-building') }}">Luxury Home Building</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Elegant, durable, and modern homes built with precision and superior craftsmanship.</p>
                                 </div>
                                 <div class="prt-service-button">
-                                    <a href="general-builder.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
+                                    <a href="{{ route('services.view', 'luxury-home-building') }}" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
                                 </div>
                             </div>
                         </div>
