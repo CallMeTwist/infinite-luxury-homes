@@ -440,66 +440,28 @@
             <div class="prt-row-wrapper-bg-layer prt-bg-layer bg-base-dark"></div>
             <div class="container">
                 <div class="row slick_slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1050,"settings":{"slidesToShow": 1,"arrows":false,"autoplay":true}},{"breakpoint":481,"settings":{"slidesToShow": 1}}]}'>
-                    <div class="col-lg-12">
+                    @foreach($testimonials as $testimonial)
+                        <div class="col-lg-12">
                         <!-- testimonials -->
                         <div class="testimonials prt-testimonial-box-view-style1">
                             <div class="testimonial-content">
                                 <div class="testimonial-quote-img">
                                     <img width="59" height="57" src="/assets/images/icon-01.png" class="img-fluid" alt="image">
                                 </div>
-                                <blockquote class="testimonial-text">I was blown away by the quality of work the construction team delivered incredibly detail-oriented and made every aspect of project was executed flawlessly.</blockquote>
+                                <blockquote class="testimonial-text">{{ $testimonial->message }}</blockquote>
                                 <div class="testimonial-caption">
-                                    <div class="caption-text">CEO At Constructions</div>
-                                    <h3>Judy Wells</h3>
+                                    <div class="caption-text">{{ $testimonial->title }}</div>
+                                    <h3>{{ $testimonial->name }}</h3>
                                 </div>
                                 <div class="testimonial-avatar">
                                     <div class="testimonial-img">
-                                        <img width="60" height="60" class="img-fluid" src="/assets/images/testimonial/testimonial-01.jpg" alt="testimonial-img">
+                                        <img width="60" height="60" class="img-fluid" src="{{ asset($testimonial->image) }}" alt="testimonial-img">
                                     </div>
                                 </div>
                             </div>
                         </div><!-- testimonials end -->
                     </div>
-                    <div class="col-lg-12">
-                        <!-- testimonials -->
-                        <div class="testimonials prt-testimonial-box-view-style1">
-                            <div class="testimonial-content">
-                                <div class="testimonial-quote-img">
-                                    <img width="59" height="57" src="/assets/images/icon-01.png" class="img-fluid" alt="image">
-                                </div>
-                                <blockquote class="testimonial-text">The construction team was incredibly communicative throughout the entire process, always keeping us in the loop on progress and any changes that needed to be made.</blockquote>
-                                <div class="testimonial-caption">
-                                    <div class="caption-text">Manager</div>
-                                    <h3>Alice Howard</h3>
-                                </div>
-                                <div class="testimonial-avatar">
-                                    <div class="testimonial-img">
-                                        <img width="60" height="60" class="img-fluid" src="/assets/images/testimonial/testimonial-02.jpg" alt="testimonial-img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- testimonials end -->
-                    </div>
-                    <div class="col-lg-12">
-                        <!-- testimonials -->
-                        <div class="testimonials prt-testimonial-box-view-style1">
-                            <div class="testimonial-content">
-                                <div class="testimonial-quote-img">
-                                    <img width="59" height="57" src="/assets/images/icon-01.png" class="img-fluid" alt="image">
-                                </div>
-                                <blockquote class="testimonial-text">We were very impressed with the level of professionalism exhibited by the construction team,by the construction team always on time and completed the job to our satisfaction.</blockquote>
-                                <div class="testimonial-caption">
-                                    <div class="caption-text">Manager</div>
-                                    <h3>Aenna Bell</h3>
-                                </div>
-                                <div class="testimonial-avatar">
-                                    <div class="testimonial-img">
-                                        <img width="60" height="60" class="img-fluid" src="/assets/images/testimonial/testimonial-03.jpg" alt="testimonial-img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- testimonials end -->
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </section>

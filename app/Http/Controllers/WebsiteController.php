@@ -6,6 +6,7 @@ use App\Models\Estate;
 use App\Models\FAQ;
 use App\Models\Inspection;
 use App\Models\Project;
+use App\Models\Testimonial;
 use Exception;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
@@ -22,9 +23,11 @@ class WebsiteController extends Controller
     {
         $faqs = FAQ::all();
         $projects = Project::take(4)->get();
+        $testimonials = Testimonial::all();
         return view('index')->with([
             'faqs' => $faqs,
-            'projects' => $projects
+            'projects' => $projects,
+            'testimonials' => $testimonials
         ]);
     }
 
