@@ -125,9 +125,9 @@
                                     <h3>Categories</h3>
                                 </div>
                                 <ul>
-                                    <li class="active"><a href="{{ route('services.view', 'luxury-home-building') }}">Luxury Home Building</a></li>
+                                    <li><a href="{{ route('services.view', 'luxury-home-building') }}">Luxury Home Building</a></li>
                                     <li><a href="{{ route('services.view', 'custom-extensions-and-renovations') }}">Custom Extensions and Renovation</a></li>
-                                    <li><a href="{{ route('services.view', 'smart-home-and-mechanical-systems') }}">Smart Homes</a></li>
+                                    <li class="active"><a href="{{ route('services.view', 'smart-home-and-mechanical-systems') }}">Smart Homes</a></li>
                                     <li><a href="{{ route('services.view', 'structural-and-architectural-design') }}">Structural and Architectural Design</a></li>
                                     <li><a href="{{ route('services.view', 'commercial-and-residential-developments') }}">Commercial and Residential Developments</a></li>
                                     <li><a href="{{ route('services.view', 'real-estate-investment-advisory') }}">Real Estate Investment Advisory</a></li>
