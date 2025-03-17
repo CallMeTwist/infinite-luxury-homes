@@ -77,10 +77,10 @@
                                                     <a href="/">Home</a>
                                                 </li>
                                                 <li class="mega-menu-item {{ request()->is('about') ? 'active' : '' }}">
-                                                    <a href="{{ route('about') }}" class="mega-menu-link">About Us</a>
+                                                    <a href="{{ route('about') }}" class="">About Us</a>
                                                 </li>
                                                 <li class="mega-menu-item {{ request()->is('services*') ? 'active' : '' }}">
-                                                    <a href="{{ route('services.index') }}" class="mega-menu-link">Services</a>
+                                                    <a href="{{ route('services.index') }}" class="">Services</a>
                                                 </li>
                                                 <li class="mega-menu-item {{ request()->is('projects') ? 'active' : '' }}">
                                                     <a href="#" class="mega-menu-link">Our Assets</a>
@@ -90,7 +90,7 @@
                                                     </ul>
                                                 </li>
                                                 <li class="mega-menu-item {{ request()->is('faqs') ? 'active' : '' }}">
-                                                    <a href="{{ route('faqs') }}" class="mega-menu-link">FAQ</a>
+                                                    <a href="{{ route('faqs') }}" class="">FAQ</a>
                                                 </li>
                                             </ul>
                                         </nav><!-- menu end -->
@@ -184,17 +184,12 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 widget-area">
-                        <div class="widget widget-form clearfix">
-                            <h3>Join Our Newsletter</h3>
-                            <form id="subscribe-form" class="newsletter-form" method="post" action="#" data-mailchimp="true">
-                                <div class="mailchimp-inputbox clearfix" id="subscribe-content">
-                                    <p><input type="email" name="email" placeholder="Enter Your Email Address.." required=""></p>
-                                    <button class="submit" type="submit">Subscribe Now <i class="icon-paper-plane-1"></i></button>
-                                </div>
-                                <p class="last-child">You may withdraw your consent at any time!</p>
-                            </form>
+                        <div class="widget widget-logo clearfix d-flex justify-content-start align-items-end" style="height: 100px; padding-left: 10px;">
+                            <img src="/assets/images/infinite luxury logo 1.png" alt="Website Logo" class="img-fluid" style="max-width: 80%; position: relative; top: 20px;">
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
