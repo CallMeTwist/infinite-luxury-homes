@@ -52,24 +52,24 @@ class WebsiteController extends Controller
      * @return Factory|\Illuminate\View\View
      * @throws Exception
      */
-    public function viewService($title)
-    {
-        $services = [
-            'luxury-home-building' => 'Luxury Home Building',
-            'custom-extensions-&-renovations' => 'Custom Extensions & Renovations',
-            'smart-home-&-mechanical-systems' => 'Smart Home & Mechanical Systems',
-            'structural-&-architectural-design' => 'Structural & Architectural Design',
-            'commercial-&-residential-developments' => 'Commercial & Residential Developments',
-            'real-estate-investment-advisory' => 'Real Estate Investment Advisory',
-
-        ];
-
-        if (!array_key_exists($title, $services)) {
-            abort(404);
-        }
-
-        return view('services.view', ['title' => $services[$title]]);
-    }
+//    public function viewService($title)
+//    {
+//        $services = [
+//            'luxury-home-building' => 'Luxury Home Building',
+//            'custom-extensions-and-renovations' => 'Custom Extensions & Renovations',
+//            'smart-home-and-mechanical-systems' => 'Smart Home & Mechanical Systems',
+//            'structural-and-architectural-design' => 'Structural & Architectural Design',
+//            'commercial-and-residential-developments' => 'Commercial & Residential Developments',
+//            'real-estate-investment-advisory' => 'Real Estate Investment Advisory',
+//
+//        ];
+//
+//        if (!array_key_exists($title, $services)) {
+//            abort(404);
+//        }
+//
+//        return view('services.view', ['title' => $services[$title]]);
+//    }
 
     /**
      * @return Factory|\Illuminate\View\View

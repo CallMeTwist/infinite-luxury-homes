@@ -9,8 +9,8 @@
     <meta name="description" content="{{ config('app.name') }}">
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="/favicon.png" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+    <link rel="icon" href="/assets/images/favicon2.png" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon2.png" />
 
     <title>{{ $title ?? 'Welcome' }} | {{ config('app.name') }}</title>
 
@@ -30,7 +30,7 @@
 <body>
     <nav class="sb-topnav navbar navbar-expand navbar-light bg-whitesmoke">
         <a class="navbar-brand text-center" href="{{ route('panel.dashboard') }}">
-            <img src="{{ asset('assets/img/Dajem logo.png') }}" class="w-50 p-t-60" />
+            <img src="{{ asset('assets/images/infinite luxury logo 2.png') }}" class="w-100 p-t-70" />
         </a>
         <div class="d-flex align-items-center justify-content-between">
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>

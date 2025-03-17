@@ -56,9 +56,23 @@ Route::post('/contact', [WebsiteController::class, 'contact_send'])->name('conta
 Route::get('/projects', [WebsiteController::class, 'projects'])->name('projects');
 Route::group(['prefix' => 'services', 'as' => 'services.'], function(){
     Route::get('/', [WebsiteController::class, 'services'])->name('index');
-    Route::get('/{title}', [WebsiteController::class, 'viewService'])->name('view')
-        ->where('title', 'luxury-home-building|custom-extensions-&-renovations|smart-home-&-mechanical-systems|structural-&-architectural-design|commercial-&-residential-developments|real-estate-investment-advisory');;
+        Route::get('/{title}', function ($title) {
+            $allowedServices = [
+                'luxury-home-building',
+                'custom-extensions-and-renovations',
+                'smart-home-and-mechanical-systems',
+                'structural-and-architectural-design',
+                'commercial-and-residential-developments',
+                'real-estate-investment-advisory'
+            ];
+            if (!in_array($title, $allowedServices)) {
+                abort(404);
+            }
+
+            return view("services.$title");
+        })->name('view');
 });
+
 
 Route::get('/become-an-affiliate', [WebsiteController::class, 'affiliates']);
 Route::get('/inspections', [WebsiteController::class, 'inspections']);

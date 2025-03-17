@@ -79,8 +79,8 @@
                                                 <li class="mega-menu-item {{ request()->is('about') ? 'active' : '' }}">
                                                     <a href="{{ route('about') }}" class="mega-menu-link">About Us</a>
                                                 </li>
-                                                <li class="mega-menu-item {{ request()->is('services') ? 'active' : '' }}">
-                                                    <a href="{{ route('services') }}" class="mega-menu-link">Services</a>
+                                                <li class="mega-menu-item {{ request()->is('services*') ? 'active' : '' }}">
+                                                    <a href="{{ route('services.index') }}" class="mega-menu-link">Services</a>
                                                 </li>
                                                 <li class="mega-menu-item {{ request()->is('projects') ? 'active' : '' }}">
                                                     <a href="#" class="mega-menu-link">Our Assets</a>
@@ -165,7 +165,7 @@
                             <ul class="menu-footer-link">
                                 <li><a href="{{ route('welcome') }}">Home</a></li>
                                 <li><a href="{{ route('about') }}">About Us</a></li>
-                                <li><a href="{{ route('services') }}">What We Do</a></li>
+                                <li><a href="{{ route('services.index') }}">What We Do</a></li>
                                 <li><a href="{{ route('projects') }}">Projects</a></li>
                                 <li><a href="{{ route('faqs') }}">FAQs</a></li>
                                 <li><a href="{{ route('contact') }}">Contact Us</a></li>

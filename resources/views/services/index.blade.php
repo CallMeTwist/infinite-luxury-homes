@@ -146,13 +146,13 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="house-extensions.html">Custom Extensions & Renovations</a></h3>
+                                    <h3><a href="{{ route('services.view', 'custom-extensions-and-renovations') }}">Custom Extensions & Renovations</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Transform existing spaces with tailored renovations and seamless extensions.</p>
                                 </div>
                                 <div class="prt-service-button">
-                                    <a href="house-extensions.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
+                                    <a href="{{ route('services.view', 'custom-extensions-and-renovations') }}" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
                                 </div>
                             </div>
                         </div>
@@ -164,13 +164,13 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="disaster-response.html">Smart Home & Mechanical Systems</a></h3>
+                                    <h3><a href="{{ route('services.view', 'smart-home-and-mechanical-systems') }}">Smart Home & Mechanical Systems</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>We integrate cutting-edge automation and mechanical systems for comfort and efficiency.</p>
                                 </div>
                                 <div class="prt-service-button">
-                                    <a href="disaster-response.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
+                                    <a href="{{ route('services.view', 'smart-home-and-mechanical-systems') }}" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
                                 </div>
                             </div>
                         </div>
@@ -182,13 +182,13 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="multistory-build.html">Structural & Architectural Design</a></h3>
+                                    <h3><a href="{{ route('services.view', 'structural-and-architectural-design') }}">Structural & Architectural Design</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p> We design strong, aesthetic structures that meet the highest engineering standards.</p>
                                 </div>
                                 <div class="prt-service-button">
-                                    <a href="multistory-build.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
+                                    <a href="{{ route('services.view', 'structural-and-architectural-design') }}" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
                                 </div>
                             </div>
                         </div>
@@ -200,13 +200,13 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="civil-structure.html">Commercial & Residential Developments</a></h3>
+                                    <h3><a href="{{ route('services.view', 'commercial-and-residential-developments') }}">Commercial & Residential Developments</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Premium properties developed with quality, innovation, and sustainability.</p>
                                 </div>
                                 <div class="prt-service-button">
-                                    <a href="civil-structure.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
+                                    <a href="{{ route('services.view', 'commercial-and-residential-developments') }}" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
                                 </div>
                             </div>
                         </div>
@@ -218,13 +218,13 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="electrical-services.html">Real Estate Investment Advisory</a></h3>
+                                    <h3><a href="{{ route('services.view', 'real-estate-investment-advisory') }}">Real Estate Investment Advisory</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>We provide expert guidance to help clients make strategic, profitable real estate investments.</p>
                                 </div>
                                 <div class="prt-service-button">
-                                    <a href="electrical-services.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
+                                    <a href="{{ route('services.view', 'real-estate-investment-advisory') }}" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">Continue Reading</a>
                                 </div>
                             </div>
                         </div>

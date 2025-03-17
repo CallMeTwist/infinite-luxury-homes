@@ -329,7 +329,7 @@
                             <div class="row g-0 position-relative res-991-mt_20">
                                 <div class="col-xl-5 col-lg-12">
                                     <div class="service-btn mb-15">
-                                        <a href="services.html" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">View All Services</a>
+                                        <a href="{{ route('services.index') }}" class="prt-btn prt-btn-size-md prt-btn-color-whitecolor btn-inline btn-underline">View All Services</a>
                                     </div>
                                 </div>
                                 <div class="col-xl-7 col-lg-12">
@@ -346,13 +346,13 @@
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
-                                        <h3><a href="general-builder.html">Luxury Home Construction</a></h3>
+                                        <h3><a href="{{ route('services.view', 'luxury-home-building') }}">Luxury Home Construction</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>We specialize in building high-end homes with premium materials, modern designs, and exceptional craftsmanship.</p>
                                     </div>
                                     <div class="prt-service-button">
-                                        <a href="general-builder.html">Continue Reading</a>
+                                        <a href="{{ route('services.view', 'luxury-home-building') }}">Continue Reading</a>
                                     </div>
                                 </div>
                             </div>
@@ -361,13 +361,13 @@
                             <div class="featured-imagebox featured-imagebox-service style1">
                                 <div class="featured-content content-pr">
                                     <div class="featured-title">
-                                        <h3><a href="house-extensions.html">Bespoke Home Extensions & Renovations</a></h3>
+                                        <h3><a href="{{ route('services.view', 'custom-extensions-and-renovations') }}">Bespoke Home Extensions & Renovations</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>We enhance existing spaces with custom renovations and seamless extensions, tailored to luxury living.</p>
                                     </div>
                                     <div class="prt-service-button">
-                                        <a href="house-extensions.html">Continue Reading</a>
+                                        <a href="{{ route('services.view', 'custom-extensions-and-renovations') }}">Continue Reading</a>
                                     </div>
                                 </div>
                                 <div class="featured-thumbnail">
@@ -382,13 +382,13 @@
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
-                                        <h3><a href="electrical-services.html">Smart Home & Mechanical Systems Integration</a></h3>
+                                        <h3><a href="{{ route('services.view', 'smart-home-and-mechanical-systems') }}">Smart Home & Mechanical Systems Integration</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>We install advanced automation, climate control, and mechanical systems for ultimate comfort and efficiency.</p>
                                     </div>
                                     <div class="prt-service-button">
-                                        <a href="electrical-services.html">Continue Reading</a>
+                                        <a href="{{ route('services.view', 'smart-home-and-mechanical-systems') }}">Continue Reading</a>
                                     </div>
                                 </div>
                             </div>
@@ -397,13 +397,13 @@
                             <div class="featured-imagebox featured-imagebox-service style1">
                                 <div class="featured-content content-pr">
                                     <div class="featured-title">
-                                        <h3><a href="civil-structure.html">Structural & Architectural Engineering</a></h3>
+                                        <h3><a href="{{ route('services.view', 'structural-and-architectural-design') }}">Structural & Architectural Engineering</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>We provide expert engineering solutions to ensure durability, safety, and aesthetic excellence in luxury homes.</p>
                                     </div>
                                     <div class="prt-service-button">
-                                        <a href="civil-structure.html">Continue Reading</a>
+                                        <a href="{{ route('services.view', 'structural-and-architectural-design') }}">Continue Reading</a>
                                     </div>
                                 </div>
                                 <div class="featured-thumbnail">
@@ -418,13 +418,13 @@
                                 </div>
                                 <div class="featured-content content-pl">
                                     <div class="featured-title">
-                                        <h3><a href="multistory-build.html">High-End Commercial & Residential Developments</a></h3>
+                                        <h3><a href="{{ route('services.view', 'commercial-and-residential-developments') }}">High-End Commercial & Residential Developments</a></h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p>We design and construct upscale residential communities and commercial spaces with superior quality and innovation.</p>
                                     </div>
                                     <div class="prt-service-button">
-                                        <a href="multistory-build.html">Continue Reading</a>
+                                        <a href="{{ route('services.view', 'commercial-and-residential-developments') }}">Continue Reading</a>
                                     </div>
                                 </div>
                             </div>
