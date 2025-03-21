@@ -1,5 +1,5 @@
 @extends('layouts.master', [
-    $title = 'Our Projects',
+    $title = 'FAQ',
 ])
 
 @section('title')
